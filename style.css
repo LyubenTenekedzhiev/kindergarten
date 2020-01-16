@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+.nav {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1rem;
+    height: 2rem;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+img {
+    position: absolute;
+
+    width: 100%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    font-size: 2rem;
+    top: 10rem;
+    left: 10rem;
+    line-height: 1.6;
+    position: absolute;
+    z-index: 100;
+    color: white;
+    font-weight: bold;
+}
+
+p span {
+    text-decoration: underline;
+}
+
+.first-letter {
+    text-decoration: none;
+}
+
+.first-letter:first-of-type {
+    color: #FFE964;
+}
+
+.first-letter:nth-of-type(2) {
+    color: #223C88;
+}
+
+.last-letter {
+    color: #FF523D;
+}
+
+.mission {
+    position: relative;
+    background-color: #FFE964;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+    top: 21.5rem;
+    margin: 1rem auto;
+}
+
+.mission h3,
+.about-us h3,
+.team h3,
+footer h3 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.mission p,
+.about-us p {
+    text-align: center;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+}
+
+.about-us {
+    margin-bottom: 3rem;
+    position: relative;
+    top: 25rem;
+    
+}
+
+.about-us h3 {
+    text-align: left;
+    margin-left: 20.5rem;
+}
+
+.about-us p {
+    text-align: left;
+}
+
+.team {
+    background-color: #FF523D ;
+    position: relative;
+    top: 28rem;
+    padding-bottom: 85rem;
+}
+
+.team .person img {
+    position: absolute;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    left: 40rem;
+    height: 250px;
+    width: 200px;
+}
+
+.team h3 {
+    position: absolute;
+    color: white;
+    top: 3rem;
+    left: 20.5rem;
+}
+
+.team .person h4,
+.team .person blockquote {
+    position: relative;
+    font-size: 1.5rem;
+    top: 20rem;
+    left: 42rem;
+}
+
+.team .person blockquote {
+    text-align: center;
+    left: -1rem;
+}
+
+.team .person .phoebe {
+    position: absolute;
+    margin-top: 20rem;
+}
+
+.team .person:nth-of-type(2) h4,
+.team .person:nth-of-type(2) blockquote {
+    position: absolute;
+    margin-top: 20rem;
+}
+
+.team .person:nth-of-type(2) blockquote {
+    left: 41rem;
+    top: 22rem;
+}
+
+.team .person:nth-of-type(3) img {
+    position: absolute;
+    margin-top: 40rem;
+}
+
+.team .person:nth-of-type(3) h4, 
+.team .person:nth-of-type(3) blockquote {
+    position: absolute;
+    margin-top: 40rem;
+}
+
+.team .person:nth-of-type(3) blockquote {
+    left: 39rem;
+    top: 22.5rem;
+}
+
+.team .person:nth-of-type(4) img {
+    position: absolute;
+    margin-top: 60rem;
+}
+
+.team .person:nth-of-type(4) blockquote {
+    top: 79rem;
+}
+
+.team .person:nth-of-type(4) h4 {
+    position: absolute;
+    margin-top: 60rem;
+}
+
+footer {
+    background-color: rgb(114, 114, 241);
+    padding-top: 3rem;
+    color: white;
+    padding-bottom: 10rem;
+}
+
+footer h3 {
+    position: relative;
+    margin-top: 33rem;
+    left: -21rem;
+}
+
+footer p {
+    text-align: left;
+    margin-left: 23rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    word-wrap: break-word;
+    width: 15%;
+}
